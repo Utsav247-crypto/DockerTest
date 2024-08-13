@@ -5,7 +5,7 @@ from selenium import webdriver
 
 
 def test_google_search():
-    driver = webdriver.Edge()
+    driver = webdriver.Firefox()
 
     # Open Google
     driver.get("https://www.google.com")
